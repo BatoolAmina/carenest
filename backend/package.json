@@ -1,0 +1,31 @@
+{
+  "name": "carenest-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3002}",
+    "test": "vitest run",
+    "check-env": "node scripts/check-env.js",
+    "seed": "node scripts/seed.js",
+    "seed:reset": "node scripts/seed.js --reset",
+    "db:indexes": "node scripts/sync-indexes.js",
+    "create-admin": "node scripts/create-admin.js"
+  },
+  "dependencies": {
+    "aws4": "^1.13.2",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^8.8.1",
+    "next": "14.2.35",
+    "next-auth": "^4.24.10",
+    "nodemailer": "^7.0.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.2",
+    "vitest": "^2.1.5"
+  }
+}
