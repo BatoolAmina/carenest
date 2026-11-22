@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#071b18"/><stop offset=".58" stop-color="#17644f"/><stop offset="1" stop-color="#d2a953"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#dff8ed" stop-opacity=".8"/><stop offset="1" stop-color="#66bca0" stop-opacity=".15"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="920" cy="170" r="95" fill="#f3e5c2" opacity=".8" filter="url(#glow)"/><circle cx="920" cy="170" r="58" fill="#f3e5c2"/>
+  <path d="M0 620 Q250 510 480 630 T1200 580 V900H0Z" fill="#06241c" opacity=".9"/>
+  <path d="M110 650V360h220v290M330 650V270h340v380M670 650V390h250v260" fill="url(#glass)" stroke="#d9b45f" stroke-opacity=".6" stroke-width="4"/>
+  <path d="M450 270h100v-65h60v65h100v60H610v120h-60V330H450Z" fill="#f3e5c2" opacity=".9"/>
+  <g fill="#f3e5c2" opacity=".65"><path d="M170 410h55v75h-55zM270 410h55v75h-55zM390 330h52v80h-52zM480 330h52v80h-52zM570 330h52v80h-52zM760 440h50v75h-50zM850 440h50v75h-50z"/></g>
+  <g fill="none" stroke="#d9b45f" stroke-opacity=".6"><ellipse cx="600" cy="690" rx="480" ry="80"/><ellipse cx="600" cy="690" rx="350" ry="55"/><ellipse cx="600" cy="690" rx="220" ry="32"/></g>
+  <text x="70" y="820" fill="#f3e5c2" font-family="Georgia,serif" font-size="32" letter-spacing="8">CARENEST</text>
+</svg>
